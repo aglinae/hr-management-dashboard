@@ -1,12 +1,14 @@
 import SearchPanel from './search-panel/search-panel';
+import AccountPanel from './account-panel/accountPanel';
+import IconComponent from './icon-component/Icon-component';
 import './header.css';
-import TalentCore from '../../images/TalentCore.svg';
 const Header = () => {
   return (
     <section className="section-header">
       <header className="header">
-        <img src={TalentCore} alt="img Talent Core" />
+        <IconComponent />
         <SearchPanel />
+        <AccountPanel />
       </header>
     </section>
   );

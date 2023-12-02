@@ -1,10 +1,14 @@
+.search-panel {
+  margin-left: 100px;
+  flex: 1 1 auto;
+}
 .search-container {
   position: relative;
   display: inline-block;
 }
 .search-input {
-  width: 100%;
-  padding: 11.5px 60px 11.5px 40.5px;
+  width: 340px;
+  padding: 11.5px 60px 11.5px 50.5px;
   outline: none;
   border: 1px solid #1e1e1e;
   border-radius: 40px;
@@ -15,8 +19,8 @@
 
 .search-btn {
   position: absolute;
-  top: 8px;
-  left: 6px;
+  top: 9px;
+  left: 13px;
   background: transparent;
   border: none;
   cursor: pointer;
