@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/app/app';
-import './index.css';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+import App from './components/app/app.jsx';
+import './scss/main.scss';
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className="container">
-      <App />
-    </div>
+    <App />
   </React.StrictMode>
 );

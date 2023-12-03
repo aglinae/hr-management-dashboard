@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+  .header-search {
+    margin-left: 0;
+    flex: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header-search {
+    margin-left: auto;
+  }
+  .header-search__input {
+    display: none;
+  }
+  .header-search__btn {
+    width: 38.82px;
+    height: 38.82px;
+    border-radius: 38.82px;
+    background: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -55px;
+    top: -19px;
+  }
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 450px) {
+    .header-logo__link img{
+    
+    }
+}

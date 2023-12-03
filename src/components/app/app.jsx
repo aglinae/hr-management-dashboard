@@ -1,11 +1,10 @@
-import Header from '../header/header';
+import HeaderComponent from '../../layots/navigation/headerComponent';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header />
+    <div>
+      <HeaderComponent />;
     </div>
-  );
-}
-
+  )
+};
 export default App;
